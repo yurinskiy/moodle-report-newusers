@@ -24,10 +24,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 /**
- * Provides the information to backup shortanswer questions
+ * Provides the information to backup labpracticumsibsu questions
  *
- * @copyright  2010 onwards Eloy Lafuente (stronk7) {@link http://stronk7.com}
+ * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class backup_qtype_shortanswer_plugin extends backup_qtype_extrafields_plugin {
+class backup_qtype_labpracticumsibsu_plugin extends backup_qtype_extrafields_plugin {
 }

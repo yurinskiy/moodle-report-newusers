@@ -15,21 +15,21 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Privacy Subsystem implementation for qtype_shortanswer.
+ * Privacy Subsystem implementation for qtype_labpracticumsibsu.
  *
- * @package    qtype_shortanswer
- * @copyright  2018 Andrew Nicols <andrew@nicols.co.uk>
+ * @package    qtype_labpracticumsibsu
+ * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace qtype_shortanswer\privacy;
+namespace qtype_labpracticumsibsu\privacy;
 
 defined('MOODLE_INTERNAL') || die();
 
 /**
- * Privacy Subsystem for qtype_shortanswer implementing null_provider.
+ * Privacy Subsystem for qtype_labpracticumsibsu implementing null_provider.
  *
- * @copyright  2018 Andrew Nicols <andrew@nicols.co.uk>
+ * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class provider implements \core_privacy\local\metadata\null_provider {

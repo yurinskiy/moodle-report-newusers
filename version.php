@@ -15,19 +15,20 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Short answer question type version information.
+ * Lab Practicum (SibSU) question type version information.
  *
  * @package    qtype
- * @subpackage shortanswer
+ * @subpackage labpracticumsibsu
  * @copyright  1999 onwards Martin Dougiamas {@link http://moodle.com}
+ * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'qtype_shortanswer';
+$plugin->component = 'qtype_labpracticumsibsu';
 $plugin->version   = 2018120300;
 
 $plugin->requires  = 2018112800;
 
-$plugin->maturity  = MATURITY_STABLE;
+$plugin->maturity  = MATURITY_ALPHA;

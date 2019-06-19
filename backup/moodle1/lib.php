@@ -16,17 +16,18 @@
 
 /**
  * @package    qtype
- * @subpackage shortanswer
+ * @subpackage labpracticumsibsu
  * @copyright  2011 David Mudrak <david@moodle.com>
+ * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 /**
- * Short answer question type conversion handler
+ * Lab Practicum (SibSU) question type conversion handler
  */
-class moodle1_qtype_shortanswer_handler extends moodle1_qtype_handler {
+class moodle1_qtype_labpracticumsibsu_handler extends moodle1_qtype_handler {
 
     /**
      * @return array
@@ -39,7 +40,7 @@ class moodle1_qtype_shortanswer_handler extends moodle1_qtype_handler {
     }
 
     /**
-     * Appends the shortanswer specific information to the question
+     * Appends the labpracticumsibsu specific information to the question
      */
     public function process_question(array $data, array $raw) {
 
@@ -48,10 +49,10 @@ class moodle1_qtype_shortanswer_handler extends moodle1_qtype_handler {
             $this->write_answers($data['answers'], $this->pluginname);
         }
 
-        // Convert and write the shortanswer extra fields.
-        foreach ($data['shortanswer'] as $shortanswer) {
-            $shortanswer['id'] = $this->converter->get_nextid();
-            $this->write_xml('shortanswer', $shortanswer, array('/shortanswer/id'));
+        // Convert and write the labpracticumsibsu extra fields.
+        foreach ($data['labpracticumsibsu'] as $labpracticumsibsu) {
+            $labpracticumsibsu['id'] = $this->converter->get_nextid();
+            $this->write_xml('labpracticumsibsu', $labpracticumsibsu, array('/labpracticumsibsu/id'));
         }
     }
 }

@@ -15,26 +15,29 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Defines the editing form for the jsanswer question type.
- *
- * @package    qtype
- * @subpackage jsanswer
- * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
+ * @package    moodlecore
+ * @subpackage backup-moodle2
+ * @copyright  2010 onwards Eloy Lafuente (stronk7) {@link http://stronk7.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 
 defined('MOODLE_INTERNAL') || die();
 
+global $CFG;
+require_once($CFG->dirroot . '/backup/moodle2/restore_qtype_extrafields_plugin.class.php');
 
 /**
- * Js answer question editing form definition.
+ * Restore plugin class that provides the necessary information
+ * needed to restore one labpracticumsibsu qtype plugin
  *
  * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class qtype_jsanswer_edit_form extends question_edit_form {
-    public function qtype() {
-        return 'jsanswer';
+class restore_qtype_labpracticumsibsu_plugin extends restore_qtype_extrafields_plugin {
+    /**
+     * Process the qtype/labpracticumsibsu element
+     */
+    public function process_labpracticumsibsu($data) {
+        $this->really_process_extra_question_fields($data);
     }
 }

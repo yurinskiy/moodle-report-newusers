@@ -15,11 +15,12 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Upgrade library code for the shortanswer question type.
+ * Upgrade library code for the labpracticumsibsu question type.
  *
  * @package    qtype
- * @subpackage shortanswer
+ * @subpackage labpracticumsibsu
  * @copyright  2010 The Open University
+ * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -28,15 +29,16 @@ defined('MOODLE_INTERNAL') || die();
 
 
 /**
- * Class for converting attempt data for shortanswer questions when upgrading
+ * Class for converting attempt data for labpracticumsibsu questions when upgrading
  * attempts to the new question engine.
  *
  * This class is used by the code in question/engine/upgrade/upgradelib.php.
  *
  * @copyright  2010 The Open University
+ * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class qtype_shortanswer_qe2_attempt_updater extends question_qtype_attempt_updater {
+class qtype_labpracticumsibsu_qe2_attempt_updater extends question_qtype_attempt_updater {
     public function right_answer() {
         foreach ($this->question->options->answers as $ans) {
             if ($ans->fraction > 0.999) {
