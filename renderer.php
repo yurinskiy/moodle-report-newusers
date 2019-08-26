@@ -68,7 +68,7 @@ class qtype_labpracticumsibsu_renderer extends qtype_renderer
         $input = html_writer::empty_tag('input', $inputattributes);
 
         $divStyle = '';
-        if ($qa->get_state() != question_state::$todo && $qa->get_state() != question_state::$complete) {
+        if ($qa->get_state() != question_state::$invalid && $qa->get_state() != question_state::$todo && $qa->get_state() != question_state::$complete) {
             $divStyle = 'pointer-events: none; opacity: 0.4;';
         }
 

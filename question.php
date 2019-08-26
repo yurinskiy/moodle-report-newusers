@@ -131,13 +131,26 @@ class qtype_labpracticumsibsu_question extends question_graded_by_strategy
     {
         // Возвращает массив правильных ответов
         return [
-                new question_answer(
-                        1,
-                        "0533991565dbe2bd422541b1a3eb3e77a3702e16",
-                        1,
-                        "",
-                        1
-                )
+                new question_answer(1, "f899139df5e1059396431415e770c6dd", 1, "", 1), // 100
+                new question_answer(2, "812b4ba287f5ee0bc9d43bbf5bbe87fb", 0.95, "", 1), // 95
+                new question_answer(3, "8613985ec49eb8f757ae6439e879bb2a", 0.9, "", 1), // 90
+                new question_answer(4, "3ef815416f775098fe977004015c6193", 0.85, "", 1), // 85
+                new question_answer(5, "f033ab37c30201f73f142449d037028d", 0.8, "", 1), // 80
+                new question_answer(6, "d09bf41544a3365a46c9077ebb5e35c3", 0.75, "", 1), // 75
+                new question_answer(7, "7cbbc409ec990f19c78c75bd1e06f215", 0.7, "", 1), // 70
+                new question_answer(8, "fc490ca45c00b1249bbe3554a4fdf6fb", 0.65, "", 1), // 65
+                new question_answer(9, "072b030ba126b2f4b2374f342be9ed44", 0.6, "", 1), // 60
+                new question_answer(10, "b53b3a3d6ab90ce0268229151c9bde11", 0.55, "", 1), // 55
+                new question_answer(11, "c0c7c76d30bd3dcaefc96f40275bdc0a", 0.5, "", 1), // 50
+                new question_answer(12, "6c8349cc7260ae62e3b1396831a8398f", 0.45, "", 1), // 45
+                new question_answer(13, "d645920e395fedad7bbbed0eca3fe2e0", 0.4, "", 1), // 40
+                new question_answer(14, "1c383cd30b7c298ab50293adfecb7b18", 0.35, "", 1), // 35
+                new question_answer(15, "34173cb38f07f89ddbebc2ac9128303f", 0.3, "", 1), // 30
+                new question_answer(16, "8e296a067a37563370ded05f5a3bf3ec", 0.25, "", 1), // 25
+                new question_answer(17, "98f13708210194c475687be6106a3b84", 0.2, "", 1), // 20
+                new question_answer(18, "9bf31c7ff062936a96d3c8bd1f8f2ff3", 0.15, "", 1), // 15
+                new question_answer(19, "d3d9446802a44259755d38e6d163e820", 0.1, "", 1), // 10
+                new question_answer(20, "e4da3b7fbbce2345d7772b0674a318d5", 0.05, "", 1), // 5
         ];
     }
 
