@@ -19,7 +19,6 @@
  *
  * @since      Moodle 2.0
  * @package    qtype_labpracticumsibsu
- * @copyright  Dongsheng Cai <dongsheng@moodle.com>
  * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

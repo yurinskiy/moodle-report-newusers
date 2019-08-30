@@ -19,7 +19,6 @@
  *
  * @package    qtype
  * @subpackage labpracticumsibsu
- * @copyright  1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -35,7 +34,6 @@ require_once($CFG->dirroot . '/question/type/labpracticumsibsu/question.php');
 /**
  * The Lab Practicum (SibSU) question type.
  *
- * @copyright  1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

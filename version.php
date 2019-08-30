@@ -19,7 +19,6 @@
  *
  * @package    qtype
  * @subpackage labpracticumsibsu
- * @copyright  1999 onwards Martin Dougiamas {@link http://moodle.com}
  * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -27,8 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'qtype_labpracticumsibsu';
-$plugin->version   = 2018120300;
+$plugin->version   = 2019083000;
 
 $plugin->requires  = 2018112800;
 
-$plugin->maturity  = MATURITY_ALPHA;
+$plugin->maturity  = MATURITY_BETA;
+$plugin->release = 0.1.0;

@@ -19,7 +19,6 @@
  *
  * @package    qtype
  * @subpackage labpracticumsibsu
- * @copyright  2009 The Open University
  * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -31,7 +30,6 @@ defined('MOODLE_INTERNAL') || die();
 /**
  * Generates the output for Lab Practicum (SibSU) questions.
  *
- * @copyright  2009 The Open University
  * @copyright  2019 Yuriy Yurinskiy {@link https://yuriyyurinskiy.ru}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
